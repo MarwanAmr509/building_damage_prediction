@@ -79,6 +79,10 @@ The full prediction results can be downloaded as a CSV file.
   - `result.html`: The result display page.
 - `uploads/`: Directory where uploaded CSV files are saved.
 - `results/`: Directory where prediction results are saved.
+- `models/`: Directory containing the pre-trained model pipelines.
+  - `damage_model_pipeline.joblib`: The damage grade prediction model.
+  - `count_floors_logistic_regression_84_model.joblib`: The floors count prediction model.
+  - `height_prediction_xgboost_regressor_55_model.joblib`: The height prediction model.
 
 ## License
 
